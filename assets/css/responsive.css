@@ -1,0 +1,86 @@
+@media (min-width: 991px) {
+	.skill-tabs-mobile {
+		display:none;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: right;
+		margin-right: -30px;
+	}
+
+	.scrollNav .navbar-brand {
+		font-size:15px;
+	}
+	.scroll-top {
+		float: right;
+		width: 50px;
+		height: 50px;
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+		background-image: url(../images/scroll-top.png);
+		background-size: cover;
+		cursor: pointer;
+		display:none;
+	}
+}
+@media (max-width: 1199px) {
+	.work {
+		height:auto;
+		padding:30px 0 30px 0;
+	}
+}
+@media (max-width: 991px) {
+	.skill-tabs {
+		display:none;
+	}
+}
+@media (max-width: 768px) {
+	html, body {
+		text-align:left;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+		border:none;
+		color:#26adf4;
+	}
+	.navbar-default .navbar-brand {
+		font-size:16px;
+	}
+	.navbar-brand {
+		padding-top: 5px!important;
+	}
+	.navbar-toggle {
+		margin-right: 0px;
+	}
+	.navbar-collapse {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	.scrollNav .navbar-collapse {
+		background:none;
+	}
+	.scrollNav {
+		padding-top:10px;
+	}
+	#greet_1 {
+		font-size: 64px;
+		margin-top: 120px;
+	}
+	#greet_2 {
+		font-size: 40px;
+		margin-top:20px;
+	}
+	#greet_3 {
+		font-size: 18px;
+		margin-top:20px;
+	}
+	#work-arrow {
+		margin-top:35px;
+	}
+	#work-arrow img {
+		max-width: 150px;
+	}
+	#facebook, #linkedin { 
+		margin-top:20px;
+	}
+}

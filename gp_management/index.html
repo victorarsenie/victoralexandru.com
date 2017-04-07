@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<title>homepage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style1.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
+	</head>
+	<body>
+		
+		<div>
+			<ul class="nav navbar-inverse nav-tabs" navigation= "inverse">
+				<li role="presentation">
+					<a href="index.html" role="button" aria-expanded="false" class="navbar">Home</a>
+				</li>
+						<li  class="dropdown">
+				    		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+				      		Staff <span class="caret"></span>
+				    		</a>
+						      <ul class="dropdown-menu" role="menu">
+						      	<li><a href="#">Appointments <span class="caret"></span></a>
+						        <ul class="dropdown-menu" role="menu">
+						          	<li><a href="php/list.php">List Appointments</a></li> 
+						          	<li><a href="php/makeappointment.php">Make Appointment</a></li>
+						          	<li><a href="php/changeappointment.php">Change Appointment</a></li>
+						          	<li><a href="cancelappointment.php">Cancel Appointment</a></li>
+						        </ul>
+						    </li>
+							<li><a href="#">Doctors</a>
+								<ul>
+									<li><a href="php/listdoctors.php">Check Doctors</a></li>
+									<li><a href="php/adddoctor.php">Add Doctor</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Patients</a>
+								<ul>
+									<li><a href="php/list2.php">List Patients</a></li>
+									<li><a href="php/addpatient.php">Add Patient</a></li>
+									<li><a href="php/checkmedicalhistory.php">Check Medical History</a></li>
+								</ul>
+							</li>
+							<li><a href="php/checkprescriptions.php">Check Prescriptions</a></li>
+							<li><a href="php/addstaff.php">Add Staff</a></li>
+							<li><a href="php/listusers.php">List Users</a></li>
+							<li><a href="php/changedetails.php">Change Details</a></li>
+					          </ul>
+				  		</li>
+				  		<li class="dropdown">
+				    		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+				      		Doctors <span class="caret"></span>
+				    		</a>
+						      <ul class="dropdown-menu" role="menu">
+					            <li><a href="#">Check Patients</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Check Appointments</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Give Prescription</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Check Prescriptions</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Check Patient Medical History</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Update Patient Medical History</a></li>
+					          </ul>
+				  		</li>
+				  		<li  class="dropdown">
+				    		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+				      		Patients <span class="caret"></span>
+				    		</a>
+						      <ul class="dropdown-menu" role="menu">
+					            <li><a href="#">Make Appointment</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Change Appointment</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Cancel Appointment</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Check Medical History</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Check Available Doctors</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Change Doctor</a></li>
+					          </ul>
+				  		</li>
+			 		 
+
+					<li role="presentation">
+						<a href="login.html" role="button" aria-expanded="false" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom" class="navbar">Login</a> 
+					</li>
+			</ul>
+		</div>
+
+		<div class = "container" >
+			<div id="title">
+				<h1>GP Patients Management System</h1>
+			</div>
+		</div>
+
+		
+
+		<div class= "container" id="footer">
+			&copy Victor Arsenie 2014
+		</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="jquery/jquery.js"></script>
+	<script src="js/myscript.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+
+	</body>
+</html>
+
+
+
