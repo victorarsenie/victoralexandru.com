@@ -171,7 +171,7 @@ p {
 }
 #about ul li img, .tab-content img {
 	width:80px;
-	margin-right:25px;
+	margin:25px;
 }
 #about ul {
   list-style: none;
@@ -211,14 +211,36 @@ p {
 	content: "\f108";
 }
 .skill-tabs {
-	display:table;
+	display: flex;
 	width:100%;
+}
+.tab-btn {
+	padding:0;
+}
+.tab-panel {
+	border: 1px solid #26adf4;
+    border-left: rgba(255, 255, 255, 0);
+    align-items: stretch;
+	padding:20px;
 }
 .skill-tabs .tabs-left {
     border-right: 1px solid #26adf4;
 }
+.skill-tabs .tabs-left li {
+	padding:0!important;
+}
+.skill-tabs .tabs-left li:last-child {
+	margin-bottom:0;
+}
+.skill-tabs .tabs-left li a {
+	color:#26adf4;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
 .skill-tabs .tabs-left>li.active>a, .tabs-left>li.active>a:hover, .tabs-left>li.active>a:focus {
     border-bottom-color: #26adf4;
+	color:#000;
 }
 .skill-tabs .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     border: 1px solid #26adf4;

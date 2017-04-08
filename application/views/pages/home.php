@@ -11,48 +11,92 @@
 
 		
 		<div class="skill-tabs">
-			<div class="col-xs-3"> <!-- required for floating -->
+			<div class="col-sm-3 tab-btn"> <!-- required for floating -->
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs tabs-left">
-					<li class="active"><a href="#front-end" data-toggle="tab"><i class="fa fa-laptop" aria-hidden="true"></i> Front-end</a></li>
-					<li><a href="#back-end" data-toggle="tab"><i class="fa fa-database" aria-hidden="true"></i> Back-end</a></li>
-					<li><a href="#version-control" data-toggle="tab"><i class="fa fa-code-fork" aria-hidden="true"></i> Version control</a></li>
-					<li><a href="#bug-tracking" data-toggle="tab"><i class="fa fa-code" aria-hidden="true"></i> Bug tracking</a></li>
-					<li><a href="#design" data-toggle="tab"><i class="fa fa-paint-brush" aria-hidden="true"></i> Design</a></li>
-					<li><a href="#software" data-toggle="tab"><i class="fa fa-windows" aria-hidden="true"></i> Software</a></li>
-					<li><a href="#hardware" data-toggle="tab"><i class="fa fa-desktop" aria-hidden="true"></i> Hardware</a></li>
+					<li class="active"><a href="#front-end" data-toggle="tab"><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp; Front-end</a></li>
+					<li><a href="#back-end" data-toggle="tab"><i class="fa fa-database" aria-hidden="true"></i>&nbsp; Back-end</a></li>
+					<li><a href="#version-control" data-toggle="tab"><i class="fa fa-code-fork" aria-hidden="true"></i>&nbsp; Version control</a></li>
+					<li><a href="#bug-tracking" data-toggle="tab"><i class="fa fa-code" aria-hidden="true"></i>&nbsp; Bug tracking</a></li>
+					<li><a href="#design" data-toggle="tab"><i class="fa fa-paint-brush" aria-hidden="true"></i>&nbsp; Design</a></li>
+					<li><a href="#software" data-toggle="tab"><i class="fa fa-windows" aria-hidden="true"></i>&nbsp; Software</a></li>
+					<li><a href="#hardware" data-toggle="tab"><i class="fa fa-desktop" aria-hidden="true"></i>&nbsp; Hardware</a></li>
 				</ul>
 			</div>
 
-			<div class="col-xs-9">
+			<div class="col-sm-9 tab-panel">
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active" id="front-end">
-						<img src="<?php echo base_url(); ?>assets/images/logos/html5.png" alt="html">
-						<img src="<?php echo base_url(); ?>assets/images/logos/css3.png" alt="css">
-						<img src="<?php echo base_url(); ?>assets/images/logos/javascript.png" alt="javascript">
-						<img src="<?php echo base_url(); ?>assets/images/logos/jquery.png" alt="jquery">
-						<img src="<?php echo base_url(); ?>assets/images/logos/bootstrap.png" alt="bootstrap">
-						<img src="<?php echo base_url(); ?>assets/images/logos/ajax.png" alt="ajax">
-						<img src="<?php echo base_url(); ?>assets/images/logos/json.png" alt="json">
-						<img src="<?php echo base_url(); ?>assets/images/logos/xml.png" alt="xml">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/html5.png" alt="html">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/css3.png" alt="css">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/javascript.png" alt="javascript">
+							</div>	
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/jquery.png" alt="jquery">
+							</div>
+							<div class="col-sm-3">	
+								<img src="<?php echo base_url(); ?>assets/images/logos/bootstrap.png" alt="bootstrap">
+							</div>
+							<div class="col-sm-3">							
+								<img src="<?php echo base_url(); ?>assets/images/logos/ajax.png" alt="ajax">
+							</div>
+							<div class="col-sm-3">	
+								<img src="<?php echo base_url(); ?>assets/images/logos/json.png" alt="json">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/xml.png" alt="xml">
+							</div>
+						</div>
 					</div>
 					<div class="tab-pane" id="back-end">
-						<img src="<?php echo base_url(); ?>assets/images/logos/php.png" alt="php">
-						<img src="<?php echo base_url(); ?>assets/images/logos/mysql.png" alt="mysql">
-						<img src="<?php echo base_url(); ?>assets/images/logos/codeigniter.png" alt="codeigniter">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/php.png" alt="php">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/mysql.png" alt="mysql">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/codeigniter.png" alt="codeigniter">
+							</div>
+						</div>
 					</div>
 					<div class="tab-pane" id="version-control">
-						<img src="<?php echo base_url(); ?>assets/images/logos/sourcetree.png" alt="sourcetree">
-						<img src="<?php echo base_url(); ?>assets/images/logos/tortoisesvn.png" alt="tortoisesvn">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/sourcetree.png" alt="sourcetree">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/tortoisesvn.png" alt="tortoisesvn">
+							</div>
+						</div>
 					</div>
 					<div class="tab-pane" id="bug-tracking">
-						<img src="<?php echo base_url(); ?>assets/images/logos/jira.png" alt="jira">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/jira.png" alt="jira">
+							</div>
+						</div>
 					</div>
 					<div class="tab-pane" id="design">
-						<img src="<?php echo base_url(); ?>assets/images/logos/photoshop.png" alt="photoshop">
-						<img src="<?php echo base_url(); ?>assets/images/logos/indesign.png" alt="indesign">
-						<img src="<?php echo base_url(); ?>assets/images/logos/fireworks.png" alt="fireworks">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/photoshop.png" alt="photoshop">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/indesign.png" alt="indesign">
+							</div>
+							<div class="col-sm-3">
+								<img src="<?php echo base_url(); ?>assets/images/logos/fireworks.png" alt="fireworks">
+							</div>
+						</div>
 					</div>
 					<div class="tab-pane" id="software">
 						<p>Windows  (installing, troubleshooting, backup, maintenance), Adobe Acrobat Pro DC, Microsoft Visual Studio, Microsoft Office, Norton Partition Magic, memory diagnostic tools, data recovery tools</p>
