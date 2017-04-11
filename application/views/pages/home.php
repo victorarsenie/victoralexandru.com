@@ -31,35 +31,27 @@
 						<div class="row">
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/html5.png" alt="html">
-								<div class="progressbar" id="progressBarHTML"><div></div></div>
 							</div>
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/css3.png" alt="css">
-								<div class="progressbar" id="progressBarCSS"><div></div></div>
 							</div>
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/javascript.png" alt="javascript">
-								<div class="progressbar" id="progressBarJava"><div></div></div>
 							</div>	
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/jquery.png" alt="jquery">
-								<div class="progressbar" id="progressBarJquery"><div></div></div>
 							</div>
 							<div class="col-sm-3">	
 								<img src="<?php echo base_url(); ?>assets/images/logos/bootstrap.png" alt="bootstrap">
-								<div class="progressbar" id="progressBarBoot"><div></div></div>
 							</div>
 							<div class="col-sm-3">							
 								<img src="<?php echo base_url(); ?>assets/images/logos/ajax.png" alt="ajax">
-								<div class="progressbar" id="progressBarAjax"><div></div></div>
 							</div>
 							<div class="col-sm-3">	
 								<img src="<?php echo base_url(); ?>assets/images/logos/json.png" alt="json">
-								<div class="progressbar" id="progressBarJson"><div></div></div>
 							</div>
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/xml.png" alt="xml">
-								<div class="progressbar" id="progressBarXML"><div></div></div>
 							</div>
 						</div>
 					</div>
