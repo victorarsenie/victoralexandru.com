@@ -14,8 +14,8 @@
 	}
 	.scroll-top {
 		float: right;
-		width: 50px;
-		height: 50px;
+		width: 60px;
+		height: 60px;
 		position: fixed;
 		right: 20px;
 		bottom: 20px;
@@ -37,9 +37,6 @@
 	}
 }
 @media (max-width: 768px) {
-	html, body {
-		text-align:left;
-	}
 	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 		border:none;
 		color:#26adf4;
@@ -61,6 +58,9 @@
 	}
 	.scrollNav {
 		padding-top:10px;
+	}
+	#about ul li img, .tab-content img {
+		width: 80px;
 	}
 	#greet_1 {
 		font-size: 64px;

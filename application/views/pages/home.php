@@ -31,27 +31,35 @@
 						<div class="row">
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/html5.png" alt="html">
+								<div class="progressbar" id="progressBarHTML"><div></div></div>
 							</div>
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/css3.png" alt="css">
+								<div class="progressbar" id="progressBarCSS"><div></div></div>
 							</div>
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/javascript.png" alt="javascript">
+								<div class="progressbar" id="progressBarJava"><div></div></div>
 							</div>	
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/jquery.png" alt="jquery">
+								<div class="progressbar" id="progressBarJquery"><div></div></div>
 							</div>
 							<div class="col-sm-3">	
 								<img src="<?php echo base_url(); ?>assets/images/logos/bootstrap.png" alt="bootstrap">
+								<div class="progressbar" id="progressBarBoot"><div></div></div>
 							</div>
 							<div class="col-sm-3">							
 								<img src="<?php echo base_url(); ?>assets/images/logos/ajax.png" alt="ajax">
+								<div class="progressbar" id="progressBarAjax"><div></div></div>
 							</div>
 							<div class="col-sm-3">	
 								<img src="<?php echo base_url(); ?>assets/images/logos/json.png" alt="json">
+								<div class="progressbar" id="progressBarJson"><div></div></div>
 							</div>
 							<div class="col-sm-3">
 								<img src="<?php echo base_url(); ?>assets/images/logos/xml.png" alt="xml">
+								<div class="progressbar" id="progressBarXML"><div></div></div>
 							</div>
 						</div>
 					</div>
@@ -138,16 +146,10 @@
 				<img src="<?php echo base_url(); ?>assets/images/logos/indesign.png" alt="indesign">
 				<img src="<?php echo base_url(); ?>assets/images/logos/fireworks.png" alt="fireworks">
 			</li>
-			<li class="lead">Software<br> Windows  (installing, troubleshooting, backup, maintenance), Adobe Acrobat Pro DC, Microsoft Visual Studio, Microsoft Office, Norton Partition Magic, memory diagnostic tools, data recovery tools</li>
-			<li class="lead">Hardware<br> PC components (building, troubleshooting), peripherals, audio-video, networking, soldering</li>
+			<li class="lead">Software<br> <p class="lead">Windows  (installing, troubleshooting, backup, maintenance), Adobe Acrobat Pro DC, Microsoft Visual Studio, Microsoft Office, Norton Partition Magic, memory diagnostic tools, data recovery tools</p></li>
+			<li class="lead">Hardware<br> <p class="lead">PC components (building, troubleshooting), peripherals, audio-video, networking, soldering</p></li>
 		</ul>
 
-		
-		<br>
-		<a href="http://victoralexandru.com/old_website/"><p class="lead">Old website</p></a>
-		
-		
-		<p></p>
 	</div>
 </div>
 <div class="section work">
@@ -173,7 +175,7 @@
 
 			<div class="row projects">
 				<h1>Projects</h1>
-				<h2>At Iceberg Digital</h2>
+				<h2><i class="fa fa-at" aria-hidden="true"></i> Iceberg Digital</h2>
 				<p class="lead">For the past year, I’ve been working with a great team of developers, designers and content creators who were also amazing colleagues. During this time, I have developed websites, created email signatures, magazine templates with TCPDF, CMS, SEO, managed databases for estate agents with thousands of properties imported daily from data providers and also did customer support, using Team Viewer for remote access. I have built custom CMS to meet the needs of the client; banner systems where the client can select what banner to show when, to use for promotional periods; valuation tools with the use of API’s to get the address using the postcode and get the price range using the address and property details. I have worked closely with the design team to produce the best outcome in the most efficient way. </p>
 				<h1>Websites</h1>
 				<div class="col-md-6">
@@ -184,7 +186,22 @@
 					<p>Fully responsive website based on a premium template with custom CMS to meet the client's needs.</p>
 					<p>It benefits of a custom search systems to help users search easily for the desired property and a custom banner system where the client can add an unlimited number of banners for different promotions, change the order and select the period of time for the banner to be live on the website.</p>
 				</div>
+				<div class="col-md-12">
+					<h1>Magazines</h1>
+				</div>
+				<div class="col-md-6">
+					<a href="Http://www.digitalmag.co.uk/mag/bseenmagazine" target="_blank"><img src="<?php echo base_url(); ?>assets/images/mag.png" alt="magazine"></a>
+				</div>
+				<div class="col-md-6">
+					<h2>One of hundreds of magazines</h2>
+					<p>Magazine created by the client with the use of our system.</p>
+					<p>I have built the HTML and PDF template using the Indesign document created by the design team. Once applyed to the client's account, the client can simply go to the system, add pages, drag the properties to the desired pages and create the magazine with the push of a button.</p>
+				</div>
 			</div>
+			<br>
+			<br>
+			<a style="color:#fff" href="http://victoralexandru.com/old_website/"><p class="lead">Old website</p></a>
+		
 		</div>
 	
 	</div>

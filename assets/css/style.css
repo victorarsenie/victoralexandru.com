@@ -147,7 +147,7 @@ p {
 /*------------------------- Home page content -----------------------*/
 .section {
 	padding-top:20px;
-	padding-bottom:50px;
+	padding-bottom:80px;
 }
 .warning {
 	border:1px solid red!important;
@@ -167,10 +167,10 @@ p {
     float: left;
 }
 #about h1:nth-child(2) {
-	margin:30px 0 30px 0;
+	margin:50px 0 30px 0;
 }
 #about ul li img, .tab-content img {
-	width:80px;
+	width:100px;
 	margin:25px;
 }
 #about ul {
@@ -258,12 +258,29 @@ p {
 .nav>li>a:hover {
     background-color: #26adf4;
 }
+.tab-pane {
+	text-align: center;
+}
+.progressbar {
+	border-radius: 3px;
+	/*border: 2px solid #111;*/
+	background:#000;
+	box-shadow: 0 2px 3px #424242;
+}
+.progressbar div {
+	width:0;
+	height:10px;
+	background: #26adf4;
+	box-shadow: 0 2px 2px #ccc inset;
+	border-radius: 1px;
+	text-indent: 99999px;
+	overflow: hidden;
+}
 
 /* Work section */
 .work {
 	background-color: #737373;
 	color:#fff;
-	padding-bottom:150px;
 }
 .employment .half {
 	padding:0;
@@ -301,6 +318,9 @@ p {
 }
 .projects img {
 	width:100%;
+}
+.projects h2 i {
+	color:#26adf4;
 }
 
 /* Contact section */
@@ -385,7 +405,7 @@ footer .copy .fa {
 .eu {
 	width: 150px;
     margin-top: 100px;
-    margin-bottom: -180px;
+    margin-bottom: -210px;
 }
 .eu img {
 	max-width: 100%;

@@ -2,7 +2,7 @@
 function onScroll(event){
 	var scrollPosition = $(document).scrollTop();
 	
-	if ( scrollPosition > $('#about').offset().top - 70 ) { 
+	if ( scrollPosition > $('#about').offset().top - 90 ) { 
 		$('.pageNav').addClass('scrollNav');
 	} else {
 		$('.pageNav').removeClass('scrollNav');
@@ -13,6 +13,18 @@ function onScroll(event){
 		$('.scroll-top').fadeIn();
 	} else {
 		$('.scroll-top').fadeOut();
+	}
+	
+	if (scrollPosition > $('#about').position().top - 2) {
+		//Skills progress bar
+		progressBar(75, $('#progressBarHTML'));
+		progressBar(73, $('#progressBarCSS'));
+		progressBar(70, $('#progressBarJava'));
+		progressBar(70, $('#progressBarJquery'));
+		progressBar(73, $('#progressBarBoot'));
+		progressBar(62, $('#progressBarAjax'));
+		progressBar(53, $('#progressBarJson'));
+		progressBar(37, $('#progressBarXML'));
 	}
 	
 	$('#pageNav ul li a').each(function () {

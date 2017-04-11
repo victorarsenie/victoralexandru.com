@@ -26,6 +26,7 @@
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/jquery.imageScroll.min.js"></script>
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/sweetalert.js"></script>
+		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/progressbar.js"></script>
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/functions.js"></script>
 		<script>
 		
