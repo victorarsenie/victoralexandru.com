@@ -5,7 +5,7 @@
 			<p class="lead"><a id="my_cv" href="<?php echo base_url().'functions/download_file';?>"><img src="<?php echo base_url(); ?>assets/images/cv.png" alt="html"></a> I am a full-stack web developer with a great passion for coding. I enjoy creating websites  of all kinds, with high attention to details. 
 			I can develop high quality websites from scratch, fully responsive with a 'mobile first' approach or add a bit of Wow factor and make them 'mobile friendly'.
 			</p>
-			<p class="lead">I have always been passionate about computers and had the ability to learn fast on my own, being able to manage any problems I encountered. I am always searching for ways to improve and increase efficiency. I love technology and I am always up to date with what comes out. I have a strong attention to details and I am very determined to get anything I do to high standards and improve where necessary. I have always been the geek of the group and people came to me when they needed help. I love to travel and to drive, but not in London. I like computer games, VR and watching films on my 100” screen LED projector. My newest addition to my hobbies is FPV quad copters.</p>
+			<p class="lead">I have always been passionate about computers and had the ability to learn fast on my own, being able to manage any problems I encountered. I am always searching for ways to improve and increase efficiency. I love technology and I am always up to date with what comes out. I have a strong attention to details and I am very determined to get anything I do to high standards and improve where necessary. I have always been the geek of the group and people came to me when they needed help. I love to travel and to drive, but not in London. I like computer games, VR and watching films on my 100” screen LED projector. My newest additions to my hobbies are VR and FPV quad copters.</p>
 		</div>
 		<h1><strong>Skills</strong></h1>
 
@@ -157,19 +157,50 @@
 				<h1>Employment</h1>
 				
 				<div class="col-md-6 col-sm-12 half">
-					<a href="http://www.iceberg-digital.co.uk/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/iceberg.png" alt="Iceberg"></a>
+					<div class="screenshot">
+						<a href="http://www.iceberg-digital.co.uk/" target="_blank">
+							<img src="<?php echo base_url(); ?>assets/images/iceberg.png" alt="Iceberg">
+						</a>
+						<div class="screenshot-caption screenshot-caption_top">
+							<h3>Iceberg Digital</h3>
+							<p class="lead">March 2016 - Present</p>
+							<a href="http://www.iceberg-digital.co.uk/">Visit website</a>
+						</div>
+					</div>
+				</div>
+				<div class="caption-mobile col-sm-12">
+					<h3>Iceberg Digital</h3>
+					<p class="lead">March 2016 - Present</p>
 				</div>
 				<div class="col-md-6 col-sm-12 half">
-					<a href="http://www.keyelement.co.uk/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/keyelement.png" alt="Keyelement"></a>
+					<div class="screenshot">
+						<a href="http://www.keyelement.co.uk/" target="_blank">
+							<img src="<?php echo base_url(); ?>assets/images/keyelement.png" alt="Keyelement">
+						</a>
+						<div class="screenshot-caption screenshot-caption_top">
+							<h3>Keyelement</h3>
+							<p class="lead">June 2015 - December 2015</p>
+							<a href="http://www.keyelement.co.uk/">Visit website</a>
+						</div>
+					</div>
 				</div>
-
+				<div class="caption-mobile col-sm-12">
+					<h3>Keyelement</h3>
+					<p class="lead">June 2015 - December 2015</p>
+				</div>
 			</div>
 
 			<div class="row projects">
-				<h1>Projects</h1>
-				<h2><i class="fa fa-at" aria-hidden="true"></i> Iceberg Digital</h2>
-				<p class="lead">For the past year, I’ve been working with a great team of developers, designers and content creators who were also amazing colleagues. During this time, I have developed websites, created email signatures, magazine templates with TCPDF, CMS, SEO, managed databases for estate agents with thousands of properties imported daily from data providers and also did customer support, using Team Viewer for remote access. I have built custom CMS to meet the needs of the client; banner systems where the client can select what banner to show when, to use for promotional periods; valuation tools with the use of API’s to get the address using the postcode and get the price range using the address and property details. I have worked closely with the design team to produce the best outcome in the most efficient way. </p>
-				<h1>Websites</h1>
+				<div class="col-md-12">
+					<h1>Projects</h1>
+				</div>
+				<div class="col-md-12">
+					<h2><i class="fa fa-at" aria-hidden="true"></i> Iceberg Digital</h2>
+					<p class="lead">For the past year, I’ve been working with a great team of developers, designers and content creators who were also amazing colleagues. During this time, I have developed websites, created email signatures, magazine templates with TCPDF, CMS, SEO, managed databases for estate agents with thousands of properties imported daily from data providers and also did customer support, using Team Viewer for remote access. I have built custom CMS to meet the needs of the client; banner systems where the client can select what banner to show when, to use for promotional periods; valuation tools with the use of API’s to get the address using the postcode and get the price range using the address and property details. I have worked closely with the design team to produce the best outcome in the most efficient way. </p>
+				</div>
+				<div class="col-md-12">
+					<h1>Websites</h1>
+				</div>
 				<div class="col-md-6">
 					<a href="http://www.nkres.co.uk/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/nkres.png" alt="NKRES"></a>
 				</div>
@@ -185,14 +216,40 @@
 					<a href="Http://www.digitalmag.co.uk/mag/bseenmagazine" target="_blank"><img src="<?php echo base_url(); ?>assets/images/mag.png" alt="magazine"></a>
 				</div>
 				<div class="col-md-6">
-					<h2>One of hundreds of magazines</h2>
-					<p>Magazine created by the client with the use of our system.</p>
-					<p>I have built the HTML and PDF template using the Indesign document created by the design team. Once applyed to the client's account, the client can simply go to the system, add pages, drag the properties to the desired pages and create the magazine with the push of a button.</p>
+					<h2>One of hundreds of monthly magazines</h2>
+					<p>Magazine created by the client with the use of our system. The system involves importing the client's properties from data providers, usually as XML files</p>
+					<p>I have built the HTML and PDF template using the Indesign document created by the design team. Once applyed to the client's account, the client can simply go to the system, add pages, drag the properties to the desired pages and create the magazine with the push of a button. The can then be accessed live as a page turner and the client has the options of printing.</p>
 				</div>
+				<div class="col-md-12">
+					<h1>Instant Online Valuations</h1>
+				</div>
+				<div class="col-md-6">
+					<a href="http://outlook.mypropertyprices.com/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/outlook.png" alt="valuation"></a>
+				</div>
+				<div class="col-md-6">
+					<h2>Online property valuation for estate agents</h2>
+					<p>With the use of API's I get the property address by sending the postcode and the property valuation by sending the address and details.</p>
+					<p>The valuation can be either shown after all the fields have been filled or sent to the user by email.</p>
+				</div>
+				<div class="col-md-12">
+					<h1>Email Signatures</h1>
+				</div>
+				<div class="col-md-6">
+					<a href="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" class="lightbox" title="Email Signature"><img src="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" alt="signature"></a>
+				</div>
+				<div class="col-md-6">
+					<h2>One of hundreds of signatures</h2>
+					<p>All signatures are made to fit the customers' needs and to work on any device.</p>
+					<p>The magazine image on the signature is automatically being updated when the client creates a new magazine.</p>
+				</div>
+				<!--<div class="col-md-12">
+					<h2><i class="fa fa-at" aria-hidden="true"></i> Key Element</h2>
+					<p>It was my first work experience after graduating. In only six months I have managed to improve my skills to a much higher level. I have been part of large and small projects, but mostly I had my own projects which consisted of building entire websites and then implementing them into our CMS. I got along very well with my colleagues and they always helped me understand how to solve issues that I was not able to solve on my own. This helped a lot with improving my programming and troubleshooting skills.</p>
+				</div>-->
 			</div>
 			<br>
 			<br>
-			<a style="color:#fff" href="http://victoralexandru.com/old_website/"><p class="lead">Old website</p></a>
+			<a style="color:#fff;display: table;" href="http://victoralexandru.com/old_website/" target="_blank"><p class="lead">Old website</p></a>
 		
 		</div>
 	

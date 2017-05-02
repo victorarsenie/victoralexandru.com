@@ -307,7 +307,7 @@ p {
 	-o-filter: grayscale(0%);
 	-moz-transform: scale(1.047);
 	-webkit-transform: scale(1.047);
-	transform: scale(1.047);
+	transform: scale(1.035);
 }
 .row.employment, .row.projects {
 	margin:auto;
@@ -372,6 +372,15 @@ p {
 }
 #contactform .btn:hover {
 	background: #26adf4;
+}
+.mfp-close {
+	cursor: pointer!important;
+    width: 25px!important;
+}
+.caption-mobile {
+	text-align: center;
+    margin-bottom: 40px;
+    margin-top: -30px;
 }
 
 /* Footer */

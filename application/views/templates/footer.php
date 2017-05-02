@@ -7,7 +7,7 @@
 							<img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Victor Arsenie">
 						</div>
 						<div class="footer-contact">
-							<p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; <a class="phone" href="tel:+44 7761 325 270">+44 7761 325 270</a></p>
+							<p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; <a class="phone" href="tel:+447761325270">+44 7761 325 270</a></p>
 							<p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; <a class="email" href="mailto:victor.arsenie@yahoo.com">victor.arsenie@yahoo.com</a></p>
 						</div>
 					</div>
@@ -27,6 +27,7 @@
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/jquery.imageScroll.min.js"></script>
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/sweetalert.js"></script>
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/progressbar.js"></script>
+		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
 		<script type='text/javascript' src="<?php echo base_url(); ?>assets/js/functions.js"></script>
 		<script>
 		
@@ -36,6 +37,9 @@
 				$('#greet_2').delay( 2000 ).fadeIn(2500);
 				$('#greet_3').delay( 3500 ).fadeIn(2500);
 				$('#work-arrow').delay( 5000 ).fadeIn(2500);
+				
+				//lightbox
+				$('.lightbox').magnificPopup({type:'image'});
 				
 				//Scroll to top
 				$('.scroll-top').click( function () {

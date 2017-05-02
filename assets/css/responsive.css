@@ -2,6 +2,53 @@
 	.skill-tabs-mobile {
 		display:none;
 	}
+	.screenshot {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.screenshot a {
+		color:#26adf4;
+	}
+	.screenshot > * { display: block; }
+	.screenshot-caption {
+	  position: absolute;
+	  width: 100%;
+	  height: 50%;
+	  text-align:center;
+	  /*customize below*/
+	  background: rgba(0,0,0,.75);
+	  color: #ffffff;
+	  -webkit-transition: all 0.5s ease-out;
+	  -moz-transition: all 0.5s ease-out;
+	  transition: all 0.5s ease-out;
+	}
+	.screenshot-caption_top {
+	  top: -100%;
+	  left: 0;
+	}
+	.screenshot:hover .screenshot-caption {
+	  top: 0;
+	  left: 0;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+	}
+	.screenshot-caption > * {
+	  -webkit-transition: opacity 1.5s ease;
+	  -moz-transition: opacity 1.5s ease;
+	  transition: opacity 1.5s ease;
+	  opacity: 0;
+	}
+	.screenshot:hover .screenshot-caption > * {
+	  -webkit-transition: opacity 1.5s ease;
+	  -moz-transition: opacity 1.5s ease;
+	  transition: opacity 1.5s ease;
+	  opacity: 1;
+	 
+	}
+	.caption-mobile {
+		display:none;	
+	}
 }
 @media (min-width: 768px) {
 	.navbar-nav {
@@ -36,6 +83,9 @@
 }
 @media (max-width: 991px) {
 	.skill-tabs {
+		display:none;
+	}
+	.screenshot-caption {
 		display:none;
 	}
 }

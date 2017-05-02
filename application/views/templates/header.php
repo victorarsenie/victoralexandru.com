@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,10 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/sweetalert.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/bootstrap.vertical-tabs.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/magnific-popup.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/responsive.css">
-		<script type="text/javascript" charset="utf-8">
+		<script type="text/javascript">
 			document.write('<style type="text/css" media="screen">#greet_1, #greet_2, #greet_3, #work-arrow { display: none; }</style>');
 		</script>	
 	</head>
