@@ -239,7 +239,7 @@
 						<a href="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" class="lightbox" title="Email Signature"><img src="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" alt="signature"></a>
 					</div>
 					<div class="col-md-6">
-						<h2>One of hundreds of signatures</h2>
+						<h2>One of hundreds of email signatures</h2>
 						<p>All signatures are made to fit the customers' needs and to work on any device.</p>
 						<p>The magazine image on the signature is automatically being updated when the client creates a new magazine.</p>
 					</div>
