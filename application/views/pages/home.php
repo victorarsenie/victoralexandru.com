@@ -163,14 +163,14 @@
 						</a>
 						<div class="screenshot-caption screenshot-caption_top">
 							<h3>Iceberg Digital</h3>
-							<p class="lead">March 2016 - Present</p>
+							<p class="lead">March 2016 - May 2017</p>
 							<a href="http://www.iceberg-digital.co.uk/">Visit website</a>
 						</div>
 					</div>
 				</div>
 				<div class="caption-mobile col-sm-12">
 					<h3>Iceberg Digital</h3>
-					<p class="lead">March 2016 - Present</p>
+					<p class="lead">March 2016 - May 2017</p>
 				</div>
 				<div class="col-md-6 col-sm-12 half">
 					<div class="screenshot">
@@ -190,57 +190,59 @@
 				</div>
 			</div>
 
-			<div class="row projects">
-				<div class="col-md-12">
-					<h1>Projects</h1>
-				</div>
-				<div class="col-md-12">
-					<h2><i class="fa fa-at" aria-hidden="true"></i> Iceberg Digital</h2>
-					<p class="lead">For the past year, I’ve been working with a great team of developers, designers and content creators who were also amazing colleagues. During this time, I have developed websites, created email signatures, magazine templates with TCPDF, CMS, SEO, managed databases for estate agents with thousands of properties imported daily from data providers and also did customer support, using Team Viewer for remote access. I have built custom CMS to meet the needs of the client; banner systems where the client can select what banner to show when, to use for promotional periods; valuation tools with the use of API’s to get the address using the postcode and get the price range using the address and property details. I have worked closely with the design team to produce the best outcome in the most efficient way. </p>
-				</div>
-				<div class="col-md-12">
-					<h1>Websites</h1>
-				</div>
-				<div class="col-md-6">
-					<a href="http://www.nkres.co.uk/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/nkres.png" alt="NKRES"></a>
-				</div>
-				<div class="col-md-6">
-					<h2>Neil King Residential</h2>
-					<p>Fully responsive website based on a premium template with custom CMS to meet the client's needs.</p>
-					<p>It benefits of a custom search systems to help users search easily for the desired property and a custom banner system where the client can add an unlimited number of banners for different promotions, change the order and select the period of time for the banner to be live on the website.</p>
-				</div>
-				<div class="col-md-12">
-					<h1>Magazines</h1>
-				</div>
-				<div class="col-md-6">
-					<a href="Http://www.digitalmag.co.uk/mag/bseenmagazine" target="_blank"><img src="<?php echo base_url(); ?>assets/images/mag.png" alt="magazine"></a>
-				</div>
-				<div class="col-md-6">
-					<h2>One of hundreds of monthly magazines</h2>
-					<p>Magazine created by the client with the use of our system. The system involves importing the client's properties from data providers, usually as XML files</p>
-					<p>I have built the HTML and PDF template using the Indesign document created by the design team. Once applyed to the client's account, the client can simply go to the system, add pages, drag the properties to the desired pages and create the magazine with the push of a button. The can then be accessed live as a page turner and the client has the options of printing.</p>
-				</div>
-				<div class="col-md-12">
-					<h1>Instant Online Valuations</h1>
-				</div>
-				<div class="col-md-6">
-					<a href="http://outlook.mypropertyprices.com/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/outlook.png" alt="valuation"></a>
-				</div>
-				<div class="col-md-6">
-					<h2>Online property valuation for estate agents</h2>
-					<p>With the use of API's I get the property address by sending the postcode and the property valuation by sending the address and details.</p>
-					<p>The valuation can be either shown after all the fields have been filled or sent to the user by email.</p>
-				</div>
-				<div class="col-md-12">
-					<h1>Email Signatures</h1>
-				</div>
-				<div class="col-md-6">
-					<a href="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" class="lightbox" title="Email Signature"><img src="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" alt="signature"></a>
-				</div>
-				<div class="col-md-6">
-					<h2>One of hundreds of signatures</h2>
-					<p>All signatures are made to fit the customers' needs and to work on any device.</p>
-					<p>The magazine image on the signature is automatically being updated when the client creates a new magazine.</p>
+			<div class="projects">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Projects</h1>
+					</div>
+					<div class="col-md-12">
+						<h2><i class="fa fa-at" aria-hidden="true"></i> Iceberg Digital</h2>
+						<p class="lead">I’ve been working with a great team of developers, designers and content creators who were also amazing colleagues. During this time, I have developed websites, created email signatures, magazine templates with TCPDF, CMS, SEO, managed databases for estate agents with thousands of properties imported daily from data providers and also did customer support, using Team Viewer for remote access. I have built custom CMS to meet the needs of the client; banner systems where the client can select what banner to show when, to use for promotional periods; valuation tools with the use of API’s to get the address using the postcode and get the price range using the address and property details. I have worked closely with the design team to produce the best outcome in the most efficient way. </p>
+					</div>
+					<div class="col-md-12">
+						<h1>Websites</h1>
+					</div>
+					<div class="col-md-6">
+						<a href="http://www.nkres.co.uk/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/nkres.png" alt="NKRES"></a>
+					</div>
+					<div class="col-md-6">
+						<h2>Neil King Residential</h2>
+						<p>Fully responsive website based on a premium template with custom CMS to meet the client's needs.</p>
+						<p>It benefits of a custom search systems to help users search easily for the desired property and a custom banner system where the client can add an unlimited number of banners for different promotions, change the order and select the period of time for the banner to be live on the website.</p>
+					</div>
+					<div class="col-md-12">
+						<h1>Magazines</h1>
+					</div>
+					<div class="col-md-6">
+						<a href="Http://www.digitalmag.co.uk/mag/bseenmagazine" target="_blank"><img src="<?php echo base_url(); ?>assets/images/mag.png" alt="magazine"></a>
+					</div>
+					<div class="col-md-6">
+						<h2>One of hundreds of monthly magazines</h2>
+						<p>Magazine created by the client with the use of our system. The system involves importing the client's properties from data providers, usually as XML files</p>
+						<p>I have built the HTML and PDF template using the Indesign document created by the design team. Once applyed to the client's account, the client can simply go to the system, add pages, drag the properties to the desired pages and create the magazine with the push of a button. The can then be accessed live as a page turner and the client has the options of printing.</p>
+					</div>
+					<div class="col-md-12">
+						<h1>Instant Online Valuations</h1>
+					</div>
+					<div class="col-md-6">
+						<a href="http://outlook.mypropertyprices.com/" target="_blank"><img src="<?php echo base_url(); ?>assets/images/outlook.png" alt="valuation"></a>
+					</div>
+					<div class="col-md-6">
+						<h2>Online property valuation for estate agents</h2>
+						<p>With the use of API's I get the property address by sending the postcode and the property valuation by sending the address and details.</p>
+						<p>The valuation can be either shown after all the fields have been filled or sent to the user by email.</p>
+					</div>
+					<div class="col-md-12">
+						<h1>Email Signatures</h1>
+					</div>
+					<div class="col-md-6">
+						<a href="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" class="lightbox" title="Email Signature"><img src="<?php echo base_url(); ?>assets/images/morganalexandersig.gif" alt="signature"></a>
+					</div>
+					<div class="col-md-6">
+						<h2>One of hundreds of signatures</h2>
+						<p>All signatures are made to fit the customers' needs and to work on any device.</p>
+						<p>The magazine image on the signature is automatically being updated when the client creates a new magazine.</p>
+					</div>
 				</div>
 				<!--<div class="col-md-12">
 					<h2><i class="fa fa-at" aria-hidden="true"></i> Key Element</h2>
